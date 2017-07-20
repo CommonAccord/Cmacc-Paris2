@@ -8,7 +8,7 @@ if (strlen($htmlHead) > 5){
 }
 
  else {
-   echo "<!DOCTYPE html><head><title>$dir</title><link  href='Doc/G/Z/CSS/Doc.css' rel='stylesheet' /></head><body>";
+   echo "<!DOCTYPE html><head><title>$dir</title><link  href='Doc/G/Z/CSS/Visual.css' rel='stylesheet' /></head><body>";
  }
 
 
@@ -18,7 +18,7 @@ echo "<hr>";
 
 $lib_path = LIB_PATH;
 
-$document = `perl $lib_path/parser.pl $path/$dir`;
+$document = `perl $lib_path/parser-showme1.pl $path/$dir`;
 
 $minDocLength = 1;
 

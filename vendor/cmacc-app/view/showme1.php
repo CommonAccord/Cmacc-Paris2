@@ -18,7 +18,7 @@ echo "<hr>";
 
 $lib_path = LIB_PATH;
 
-$document = `perl $lib_path/parser.pl $path/$dir`;
+$document = `perl $lib_path/parser-showme1.pl $path/$dir`;
 
 $minDocLength = 1;
 
